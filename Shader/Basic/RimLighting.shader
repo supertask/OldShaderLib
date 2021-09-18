@@ -35,7 +35,7 @@
 
 			#include "UnityCG.cginc"
 			#include "UnityLightingCommon.cginc"
-			#include "Assets/Packages/ShaderLib/Shader/SpecularAndDiffuse.hlsl"
+			#include "Assets/Packages/ShaderLib/Shader/Lib/SpecularAndDiffuse.hlsl"
 
 			struct appdata_t
 			{

@@ -16,7 +16,7 @@ Shader "Hidden/PhotoshopImageEffect"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-            #include "Assets/Packages/ShaderLib/Shader/PhotoshopMath.hlsl"
+            #include "Assets/Packages/ShaderLib/Shader/Lib/PhotoshopMath.hlsl"
 
             #pragma multi_compile HslShift CurveDesaturate CurveGammaCorrection LC InputRangeLC InputLC OutputRangeLC \
                 BlendColorContrastSaturationBrightnes BlendColorLighten BlendColorDarken \
